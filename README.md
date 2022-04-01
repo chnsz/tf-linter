@@ -6,9 +6,11 @@ It based on [tfproviderlint](https://pkg.go.dev/github.com/bflad/tfproviderlint)
 
 ## Usage
 
-configuration options：
+### Checks
 
-**fields**: specify fields will check whether these fields exist in the test file.
+| Check | Description | Type |
+|---|---|---|
+| [h001](passes/h001) | check for `schema arguments` that do not exist in Acceptance Test Checks. | AST |
 
 ### Local Usage
 
